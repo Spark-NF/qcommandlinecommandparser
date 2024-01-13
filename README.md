@@ -37,3 +37,8 @@ parser.setPrefix({ "add" });
 // Process the arguments as usual
 parser.process(qApp);
 ```
+
+## Included vendor files
+Due to the fact that many of the inner workings of `QCommandLineParser` are private but that this parser does not want to re-invent the wheel, it includes a copy of some of `QCommandLineParser` internal functions.
+
+If you're using a different Qt version, you might want to update them to match.
