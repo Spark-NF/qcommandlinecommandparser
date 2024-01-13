@@ -3,6 +3,34 @@
 ## About
 Parser based on Qt's [QCommandLineParser](https://doc.qt.io/qt-6/qcommandlineparser.html) that adds support for commands.
 
+```sh
+$ example --help
+Usage: example [options] <command> [args]
+
+Manage items
+
+Options:
+  -v, --version  Displays version information.
+  -h, --help     Displays help on commandline options.
+
+Commands:
+  add            Add a new item
+  list           List items
+```
+```sh
+$ example add --help
+Usage: example add [options] <item>
+
+Add a new item
+
+Options:
+  -h, --help          Displays help on commandline options.
+  --type <item_type>  Item type
+
+Arguments:
+  item                The item to add
+```
+
 ### Authors
 * Nicolas Faure ([Spark-NF](https://github.com/Spark-NF))
 
