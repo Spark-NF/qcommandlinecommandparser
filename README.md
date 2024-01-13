@@ -10,6 +10,20 @@ Parser based on Qt's [QCommandLineParser](https://doc.qt.io/qt-6/qcommandlinepar
 The script is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
 
 ## Usage
+### Example
+You can find a full example in [example/main.cpp](example/main.cpp).
+
+It can be built and run with:
+```sh
+mkdir build
+cd build
+
+cmake ../example
+make
+
+./example
+```
+
 ### Root parser
 ```cpp
 // Create a parser
