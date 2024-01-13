@@ -5,3 +5,6 @@ Parser based on Qt's [QCommandLineParser](https://doc.qt.io/qt-6/qcommandlinepar
 
 ### Authors
 * Nicolas Faure ([Spark-NF](https://github.com/Spark-NF))
+
+### License
+The script is licensed under the [Apache License 2.0](http://www.apache.org/licenses/LICENSE-2.0).
